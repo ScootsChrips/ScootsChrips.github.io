@@ -1,0 +1,26 @@
+title: dsada
+email: your-email@example.com
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "" # Пусто, если сайт в корне, иначе укажите подкаталог, например: /my-site
+url: "http://example.com" # Укажите URL вашего сайта
+
+twitter_username: jekyllrb
+github_username: jekyll
+
+plugins:
+  - jekyll-feed
+
+# Убираем исключение для index.md (можно оставить, если нужно исключить md-файлы)
+exclude:
+  - _posts/
+  - _drafts/
+
+# Включаем все html-файлы
+include:
+  - "*.html"
+
+# Дополнительно можно настроить permalinks или другие параметры, если нужно.
